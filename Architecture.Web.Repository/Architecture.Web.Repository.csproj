@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D1E8B22E-3DB2-4E84-AAA7-FF20BF356DA3}</ProjectGuid>
+    <ProjectGuid>{A2BAA2A3-1431-414B-A659-3BE9D6AFB736}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Architecture.Web.Service</RootNamespace>
-    <AssemblyName>Architecture.Web.Service</AssemblyName>
+    <RootNamespace>Architecture.Web.Repository</RootNamespace>
+    <AssemblyName>Architecture.Web.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -31,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="_Service\HttpClientSample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -52,13 +48,9 @@
       <Project>{08152e05-190b-4053-baa1-944cea76690e}</Project>
       <Name>Architecture.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Architecture.Web.Repository\Architecture.Web.Repository.csproj">
-      <Project>{a2baa2a3-1431-414b-a659-3be9d6afb736}</Project>
-      <Name>Architecture.Web.Repository</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <Folder Include="_Repository\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

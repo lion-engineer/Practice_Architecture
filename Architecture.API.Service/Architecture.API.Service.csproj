@@ -47,6 +47,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Architecture.API.Repository\Architecture.API.Repository.csproj">
+      <Project>{a760a87f-5931-40ad-80ba-551a72f894a7}</Project>
+      <Name>Architecture.API.Repository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Architecture.Common\Architecture.Common.csproj">
       <Project>{08152e05-190b-4053-baa1-944cea76690e}</Project>
       <Name>Architecture.Common</Name>
@@ -56,7 +60,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="_Repository\" />
     <Folder Include="_Service\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
