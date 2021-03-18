@@ -52,10 +52,6 @@
       <Project>{08152e05-190b-4053-baa1-944cea76690e}</Project>
       <Name>Architecture.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Architecture.Web.Repository\Architecture.Web.Repository.csproj">
-      <Project>{a2baa2a3-1431-414b-a659-3be9d6afb736}</Project>
-      <Name>Architecture.Web.Repository</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

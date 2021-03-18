@@ -23,8 +23,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Architecture.Web", "_Archi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture.API.Repository", "Architecture.API.Repository\Architecture.API.Repository.csproj", "{A760A87F-5931-40AD-80BA-551A72F894A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture.Web.Repository", "Architecture.Web.Repository\Architecture.Web.Repository.csproj", "{A2BAA2A3-1431-414B-A659-3BE9D6AFB736}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,10 +53,6 @@ Global
 		{A760A87F-5931-40AD-80BA-551A72F894A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A760A87F-5931-40AD-80BA-551A72F894A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A760A87F-5931-40AD-80BA-551A72F894A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A2BAA2A3-1431-414B-A659-3BE9D6AFB736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2BAA2A3-1431-414B-A659-3BE9D6AFB736}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2BAA2A3-1431-414B-A659-3BE9D6AFB736}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2BAA2A3-1431-414B-A659-3BE9D6AFB736}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,7 +64,6 @@ Global
 		{2B31788D-070E-42CF-8E5E-EC632A873984} = {8EA86A5E-9596-4CA8-ABE4-22B0C49AFB49}
 		{08152E05-190B-4053-BAA1-944CEA76690E} = {20325486-BAB0-4AD1-AC4B-36CE818FB55F}
 		{A760A87F-5931-40AD-80BA-551A72F894A7} = {8EA86A5E-9596-4CA8-ABE4-22B0C49AFB49}
-		{A2BAA2A3-1431-414B-A659-3BE9D6AFB736} = {B344E141-E06F-429F-ADDA-C075E7EDCD3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6E899D8-13CB-41FF-8529-7BACFBDB0F4A}
